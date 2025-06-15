@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 170px;
+    gap:70px;
+}
+
+#left{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    /* background-color: red; */
+}
+
+
+#left h1{
+    font-size: 140px;
+    font-weight: 500;
+    line-height: 155px;
+    font-family: "work snas",sans-serif;
+}
+
+#bottom-left{
+    /* background-color: yellow; */
+    height: 40%;
+    width: 100%;
+}
+
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50px;
+    border: 2px solid #000;
+}
+
+#color h5{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#color1{
+    height: 30px;
+    width: 30px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+#color2{
+    height: 30px;
+    width: 30px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+#left h2{
+   margin-top: 50px;
+   font-size: 30px;
+   margin-bottom: 15px; 
+}
+
+#left p{
+    font-size: 20px;
+    width: 65%;
+    font-weight: 600;
+    color: #444;
+    line-height: 30px;
+}
+
+
+#right{
+     height: 90%;
+    width: 33%;
+    /* background-color: blue; */
+}
+
+#right-top{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#right-top h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "work snas" ; 
+
+}
+
+#right-top h5{
+    font-size: 16px;
+
+}
+
+#right-top h5 i{
+    color: goldenrod;
+}
+
+#right img{
+    padding-left:80px ;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+
+}
+
+#blackgola{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(40,40,47);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 18%;
+    top: 35%;
+
+}
+
+#blackgola h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#rotated{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* background-color: red; */
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    rotate: -90deg;
+    font-size: 60px;
+    font-weight: 500;
+    /* transform-origin: 50% 50%; */
+}
+
