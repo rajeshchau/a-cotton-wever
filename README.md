@@ -24,7 +24,8 @@
 
 ## 📸 Preview
 
-![Website Preview](https://rajeshchau.github.io/a-cotton-wever/preview.png) <!-- Replace with real image if you upload a screenshot -->
+![Screenshot 2025-06-15 144352](https://github.com/user-attachments/assets/8418d7dd-f5a5-49a5-9efd-253ab987e6a7)
+
 
 ---
 
